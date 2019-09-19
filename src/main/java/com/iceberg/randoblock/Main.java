@@ -3,6 +3,7 @@ package com.iceberg.randoblock;
 import com.iceberg.randoblock.blocks.ModBlocks;
 import com.iceberg.randoblock.blocks.Ruby;
 import com.iceberg.randoblock.blocks.Sapphire;
+import com.iceberg.randoblock.items.RubySword;
 import com.iceberg.randoblock.setup.ClientProxy;
 import com.iceberg.randoblock.setup.IProxy;
 import com.iceberg.randoblock.setup.ModSetup;
@@ -63,6 +64,7 @@ public class Main
             Item.Properties properties = new Item.Properties().group(setup.itemGroup);
             event.getRegistry().register(new BlockItem(ModBlocks.ruby, properties).setRegistryName("ruby"));
             event.getRegistry().register(new BlockItem(ModBlocks.sapphire, properties).setRegistryName("sapphire"));
+            event.getRegistry().register(new RubySword());
         }
     }
 }
