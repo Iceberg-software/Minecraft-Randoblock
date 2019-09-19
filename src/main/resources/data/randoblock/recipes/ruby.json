@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yxy",
+    "xzx",
+    "yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:diamond"
+    },
+    "y": {
+      "item": "minecraft:redstone"
+    },
+    "z": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "randoblock:ruby"
+  }
+}

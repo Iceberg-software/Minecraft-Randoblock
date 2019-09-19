@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yxy",
+    "xzx",
+    "yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:diamond"
+    },
+    "y": {
+      "tag": "minecraft:blue_dye"
+    },
+    "z": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "randoblock:ruby"
+  }
+}
